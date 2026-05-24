@@ -10,31 +10,31 @@
 		FBA0B5C7F974BB615E655192 /* prc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		ED7B22A9F628269E68909E99 /* Exceptions for "iosApp" folder in "iosApp" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 714EE74340463CCA9F0AF625 /* iosApp */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B7B594FCC83DCD32643C8398 /* Configuration */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Configuration;
 			sourceTree = "<group>";
 		};
-		DF1823402A8A7D1E263F3C5A /* iosApp */ = {
+		DF1823402A8A7D1E263F3C5A /* prcApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				ED7B22A9F628269E68909E99 /* Exceptions for "iosApp" folder in "iosApp" target */,
+				BB1166DDAA55CC2299FF8844 /* Exceptions for "prcApp" folder in "prcApp" target */,
 			);
-			path = iosApp;
+			path = prcApp;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BB1166DDAA55CC2299FF8844 /* Exceptions for "prcApp" folder in "prcApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 714EE74340463CCA9F0AF625 /* prcApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		49F80F6FAA57033F8B613ED5 /* Frameworks */ = {
@@ -59,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				B7B594FCC83DCD32643C8398 /* Configuration */,
-				DF1823402A8A7D1E263F3C5A /* iosApp */,
+				DF1823402A8A7D1E263F3C5A /* prcApp */,
 				66EB402FF7C186FE70264A8A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		714EE74340463CCA9F0AF625 /* iosApp */ = {
+		714EE74340463CCA9F0AF625 /* prcApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5809E54826B4C1F59664B38C /* Build configuration list for PBXNativeTarget "iosApp" */;
+			buildConfigurationList = 5809E54826B4C1F59664B38C /* Build configuration list for PBXNativeTarget "prcApp" */;
 			buildPhases = (
 				8FBCC289D623A9AA98E5FEAA /* Compile Kotlin Framework */,
 				B5A9CD6F45426E8C82C2F275 /* Sources */,
@@ -81,12 +81,12 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				DF1823402A8A7D1E263F3C5A /* iosApp */,
+				DF1823402A8A7D1E263F3C5A /* prcApp */,
 			);
-			name = iosApp;
+			name = prcApp;
 			packageProductDependencies = (
 			);
-			productName = iosApp;
+			productName = prcApp;
 			productReference = FBA0B5C7F974BB615E655192 /* prc.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5F98AFB2A163FA6142B91468 /* Build configuration list for PBXProject "iosApp" */;
+			buildConfigurationList = 5F98AFB2A163FA6142B91468 /* Build configuration list for PBXProject "prcApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -119,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				714EE74340463CCA9F0AF625 /* iosApp */,
+				714EE74340463CCA9F0AF625 /* prcApp */,
 			);
 		};
 /* End PBXProject section */
@@ -233,11 +233,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"iosApp/Preview Content\"";
-				DEVELOPMENT_TEAM = "${TEAM_ID}";
+				DEVELOPMENT_ASSET_PATHS = "\"prcApp/Preview Content\"";
+				DEVELOPMENT_TEAM = SDCTHQR6AD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iosApp/Info.plist;
+				INFOPLIST_FILE = prcApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -327,11 +327,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"iosApp/Preview Content\"";
-				DEVELOPMENT_TEAM = "${TEAM_ID}";
+				DEVELOPMENT_ASSET_PATHS = "\"prcApp/Preview Content\"";
+				DEVELOPMENT_TEAM = SDCTHQR6AD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iosApp/Info.plist;
+				INFOPLIST_FILE = prcApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -351,7 +351,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5809E54826B4C1F59664B38C /* Build configuration list for PBXNativeTarget "iosApp" */ = {
+		5809E54826B4C1F59664B38C /* Build configuration list for PBXNativeTarget "prcApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C1317F8EE4287C06FD7D720 /* Debug */,
@@ -360,7 +360,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F98AFB2A163FA6142B91468 /* Build configuration list for PBXProject "iosApp" */ = {
+		5F98AFB2A163FA6142B91468 /* Build configuration list for PBXProject "prcApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69DF8033936AA41A2680407F /* Debug */,
