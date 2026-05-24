@@ -1,13 +1,18 @@
-import SwiftUI
 import Shared
+import SwiftUI
 
 struct ContentView: View {
-    @State private var showContent = false
+    @State private var showContent: Bool
+
+    init(showContent: Bool = false) {
+        _showContent = State(initialValue: showContent)
+    }
+
     var body: some View {
         VStack {
             Button("Click me!") {
                 withAnimation {
-                    showContent = !showContent
+                    showContent.toggle()
                 }
             }
 
@@ -15,7 +20,7 @@ struct ContentView: View {
                 VStack(spacing: 16) {
                     Image(systemName: "swift")
                         .font(.system(size: 200))
-                        .foregroundColor(.accentColor)
+                        .foregroundStyle(.tint)
                     Text("SwiftUI: \(Greeting().greet())")
                 }
                 .transition(.move(edge: .top).combined(with: .opacity))
@@ -26,8 +31,10 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+#Preview("Initial") {
+    ContentView()
+}
+
+#Preview("Content shown") {
+    ContentView(showContent: true)
 }

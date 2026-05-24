@@ -1,0 +1,59 @@
+# SwiftFormat 設定 — iOS 26 / Swift 6 / SwiftUI MV
+# https://github.com/nicklockwood/SwiftFormat
+
+--swiftversion 6.0
+
+# インデント
+--indent 4
+--tabwidth 4
+--smarttabs enabled
+
+# 行幅
+--maxwidth 120
+--wraparguments before-first
+--wrapparameters before-first
+--wrapcollections before-first
+--wrapconditions before-first
+--wrapreturntype if-multiline
+
+# スペース・改行
+--trimwhitespace always
+--insertlines enabled
+--linebreaks lf
+
+# Swift スタイル
+--self init-only
+--selfrequired
+--importgrouping testable-bottom
+--commas inline
+--semicolons never
+--hexliteralcase uppercase
+--hexgrouping 4
+--decimalgrouping 3
+--binarygrouping 4
+--patternlet hoist
+--ranges no-space
+--operatorfunc spaced
+--nospaceoperators ...,..<
+--shortoptionals always
+--redundanttype inferred
+--emptybraces no-space
+--someAny enabled
+
+# 有効ルール
+--enable isEmpty
+--enable wrapMultilineStatementBraces
+--enable blockComments
+--enable redundantClosure
+--enable redundantOptionalBinding
+--enable sortImports
+--enable sortDeclarations
+--enable preferKeyPath
+--enable wrapEnumCases
+
+# 無効ルール
+--disable wrapMultilineConditionalAssignment
+--disable propertyTypes
+
+# 除外
+--exclude .build,Pods,Carthage,DerivedData,**/*.generated.swift,**/Generated
