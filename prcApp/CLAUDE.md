@@ -12,7 +12,7 @@
 - 最低デプロイメントターゲット: iOS 26
 - アーキテクチャ: MV
 - 状態管理: `@Observable`
-- テスト: Swift Testing
+- テスト: XCTest
 - パッケージ管理: SPM
 
 ## モジュール構成
